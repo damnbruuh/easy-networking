@@ -14,7 +14,7 @@ flag = True
 
 client_socket.settimeout(2)
 
-with open(file_path, 'wb') as f:
+with open(file_path, 'wb') as file:
 
     while flag == True:
 
@@ -30,7 +30,7 @@ with open(file_path, 'wb') as f:
 
             flag = False
 
-        f.write(data)
+        file.write(data)
 
         print('Wrote data')
 
