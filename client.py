@@ -1,9 +1,5 @@
 import socket
 
-import threading
-
-import queue
-
 client_socket = socket.socket()
 
 host = socket.gethostname()
